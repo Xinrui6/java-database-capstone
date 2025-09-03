@@ -1,3 +1,4 @@
+## Admin User Stories
 **Title: Admin Secure Login**
 _As an Admin, I want to log into the portal with my username and password, so that I can manage the platform securely._
 **Acceptance Criteria:**
@@ -50,6 +51,7 @@ As an Admin, I want to view the number of appointments per month, so that I can 
 **Story Points:** 5
 **Notes:**
 
+## Patient User Stories
 **Title: View Doctor List (Unauthenticated)**
 As a prospective patient, I want to view a list of doctors without logging in, so that I can explore my options before registering for an account.
 **Acceptance Criteria:**
@@ -100,6 +102,7 @@ As a Patient, I want to view my upcoming appointments, so that I can prepare for
 **Story Points:** 3
 **Notes:**
 
+## Doctor User Stories
 **Title: Doctor Secure Login/Logout**
 As a Doctor, I want to log in and out of the portal, so that I can securely manage my schedule and protect patient data.
 **Acceptance Criteria:**
