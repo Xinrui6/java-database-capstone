@@ -5,9 +5,9 @@
 - Specialization: String, Not null
 - email: string, not null, unique
 - password: String, not null
+- phone: String, not null
 - role: String, not null
-- avaiable_slots: List of DATETIME, NOT NULL
-- appointments: LIST of appointments, one to Many(Foreign key -> apointment(id)) 
+- avaiable_slots: List of Stringd, NOT NULL
 ### Table: patients
 - id: Long, Primary Key, auto Increment
 - name: String, not null
@@ -23,7 +23,7 @@
 - status: INT (0 = Scheduled, 1 = Completed, 2 = Cancelled)
 ### Table: admin
 - id: Long, Primary key, auto Increment
-- email: String, not null, unique
+- username: String, not null, unique
 - password: String, not null 
 - role: String, not null
 
